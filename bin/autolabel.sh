@@ -79,6 +79,6 @@ for ((i=0; i < N_TRIALS; ++i)); do
         --in-csv-train="${DATAPATH_PROCESSED}"/dataset.csv \
         --in-tag2cls="${DATAPATH_PROCESSED}"/tag2cls.json \
         --in-dir="${DATAPATH_RAW}" \
-        --out-dir="${DATAPATH_PROCESSED}"/ \
+        --out-dir="${DATAPATH_PROCESSED}" \
         --threshold="${THRESHOLD}"
 done
